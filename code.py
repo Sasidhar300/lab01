@@ -16,3 +16,5 @@ def are_valid_groups(students,groups):
         if c != 1:
             return False
     return True
+
+    
