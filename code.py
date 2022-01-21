@@ -1,10 +1,10 @@
 def are_valid_groups(students,groups):
-    for x in students:
+    for student in students:
         c = 0
         while c != 0 and c < 2 :
-            for y in groups:
-                for group_member in y :
-                    if x == group_member :
+            for group in groups:
+                for group_member in group :
+                    if student == group_member :
                         c += 1
                 if c > 1:
                     break
