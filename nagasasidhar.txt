@@ -1,2 +1,3 @@
 This is some content for lab0
 Adding more new content
+Extra line for git reset
